@@ -6972,3 +6972,7 @@ img#footer-logo {
   margin-top: 35px !important;
   margin-bottom: -10px !important;
 }
+.team-photo img {
+ 
+  height: 240px;
+}
