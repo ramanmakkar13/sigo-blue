@@ -7014,8 +7014,8 @@ img#footer-logo {
 .form-floating {
   position: relative;
 
-  background: #08103b;
-  width: 393px;
+  /* background: #08103b; */
+  /* width: 393px; */
 }
 .border-none{
   border:0px;
@@ -7101,10 +7101,20 @@ section#wallet::before {
   border-color: #17a6f7 #22c6a4 #1db7cb;
 }
 li.nav-item {
-  width: 190px;
+  margin: 18px;
   margin-top: 10px;
     margin-bottom: 10px;
 }
 .m-g{
   margin:5px;
+}
+.row.blue {
+  background: #08103b;}
+@media only screen and (max-width:400px){
+  
+
+img.icon {
+  width: 30%;
+  margin-left: -60px;
+}
 }
