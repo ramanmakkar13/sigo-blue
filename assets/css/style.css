@@ -6963,6 +6963,7 @@ ul.menu.animated.remove-animation.fadeInDown {
     font-size: 16px !important;
     font-weight: 500;
 }
+
 }
 img#footer-logo {
   width: 30%;
@@ -7130,6 +7131,11 @@ li.nav-item {
   margin-top: 5px !important;
   margin-bottom: -10px !important;
 }
+.banner-fs .banner-wrap {
+  
+  padding-bottom: 40px;
+}
+
 }
 
 .form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {
@@ -7138,4 +7144,21 @@ li.nav-item {
     border: none;
     outline: 0px;
     box-shadow: none;
+}
+.ikon {
+
+  font-size: 60px;
+
+}
+
+.rank-item img {
+  max-height: 35px;
+  margin-top: 15px;
+}
+section#wallets::before {
+  content: '';
+  position: absolute;
+  background: #dee3e9;
+  width: 100%;
+  height: 100%;
 }
