@@ -5984,7 +5984,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 /** 04.14 Others */
 .rank-list { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; }
 
-.rank-item { background-image: url(../images/blue-bg.png); height: 88px; width: 94px; padding: 16px 20px 0; }
+/* .rank-item { background-image: url(../images/blue-bg.png); height: 88px; width: 94px; padding: 16px 20px 0; } */
 
 .rank-item img { max-height: 16px; }
 
@@ -5999,7 +5999,13 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .rank-count { padding-top: 10px; font-size: 1.4rem; }
   .rank-count span { font-size: .9rem; } }
 
-@media (min-width: 992px) { .rank-item { height: 160px; width: 164px; padding-top: 38px; } }
+@media (min-width: 992px) 
+{ .rank-item {
+  height: 100px;
+  width: 178px;
+  padding-top: 0px;
+}
+ }
 
 .rating-info { font-size: 2.23em; line-height: 1; padding: 16px 0; font-weight: 700; background: #eaeff6; border-radius: 6px 6px 0 0; color: #415076; }
 
@@ -6818,7 +6824,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .section-b-m, .section-m { padding-bottom: 80px !important; } }
 
 @media (min-width: 992px) { .section-connect:before { height: 160px; }
-  .section-t, .section { padding-top: 120px; }
+  .section-t, .section { padding-top: 0px; }
   .section-b, .section { padding-bottom: 120px; }
   .section-t-l, .section-l { padding-top: 120px !important; }
   .section-b-l, .section-l { padding-bottom: 120px !important; }
