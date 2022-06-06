@@ -7126,4 +7126,8 @@ li.nav-item {
   padding-top: 0px;
   padding-bottom: 40px;
 }
+.gutter-vr-30px {
+  margin-top: 5px !important;
+  margin-bottom: -10px !important;
+}
 }
