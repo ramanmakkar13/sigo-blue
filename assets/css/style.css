@@ -6824,7 +6824,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .section-b-m, .section-m { padding-bottom: 80px !important; } }
 
 @media (min-width: 992px) { .section-connect:before { height: 160px; }
-  .section-t, .section { padding-top: 0px; }
+  .section-t, .section { padding-top: 120px; }
   .section-b, .section { padding-bottom: 120px; }
   .section-t-l, .section-l { padding-top: 120px !important; }
   .section-b-l, .section-l { padding-bottom: 120px !important; }
